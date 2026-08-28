@@ -214,6 +214,85 @@ img { max-width: 100%; height: auto; display: block; }
   stroke-width: 1.8; stroke-linecap: round;
 }
 
+/* ---------- Comment acheter ---------- */
+
+.achat { padding-top: 3.5rem; }
+
+.achat__panneau {
+  background: var(--teal);
+  color: #cfe6e4;
+  border-radius: var(--r-l);
+  padding: 2rem 2.25rem 2.25rem;
+}
+.achat__panneau .section-title { color: #fff; }
+
+@media (max-width: 560px) {
+  .achat__panneau { padding: 1.5rem 1.35rem 1.75rem; }
+}
+
+.achat__grille {
+  display: grid;
+  gap: 1.5rem 3rem;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  margin-top: 1.75rem;
+}
+
+.achat__label {
+  font-size: .78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  color: #8fbdbb;
+}
+.achat__fort {
+  font-family: var(--titre);
+  font-size: 1.35rem;
+  font-weight: 600;
+  color: #fff;
+  margin-top: .15rem;
+}
+.achat__bloc p + p { margin-top: .35rem; }
+
+.achat__cal, .achat__carte { margin-top: .9rem; }
+.achat__cal a, .achat__carte a {
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+  padding: .5rem 1.1rem;
+  border: 1px solid rgba(255, 255, 255, .35);
+  border-radius: 999px;
+  font-size: .9rem;
+  font-weight: 700;
+  color: #fff;
+  text-decoration: none;
+  transition: background .15s, border-color .15s;
+}
+.achat__cal a:hover, .achat__carte a:hover {
+  background: rgba(255, 255, 255, .12);
+  border-color: #fff;
+}
+.achat__cal svg, .achat__carte svg {
+  flex: none;
+  width: 17px; height: 17px;
+  fill: none; stroke: currentColor;
+  stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round;
+}
+
+.achat__pied {
+  margin-top: 1.75rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid rgba(255, 255, 255, .18);
+  font-size: .93rem;
+}
+.achat__pied a {
+  color: #fff;
+  font-weight: 700;
+  text-decoration-color: var(--orange);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+.achat__pied a:hover { color: var(--orange); }
+
 /* ---------- Section activités ---------- */
 
 .activites { padding: 3.5rem 0 4rem; }
