@@ -430,7 +430,29 @@ mark {
   text-underline-offset: 3px;
 }
 .pied__contact a:hover { color: var(--orange); }
-.pied__note { font-size: .9rem; margin-top: .75rem; color: #a8ccca; }
+.comite {
+  max-width: 58ch;
+  margin: 1.5rem auto 0;
+  padding-top: 1.25rem;
+  border-top: 1px solid rgba(255, 255, 255, .18);
+}
+.comite__titre {
+  font-family: var(--texte);
+  font-size: .72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  color: #8fbdbb;
+}
+.comite__membres {
+  margin-top: .35rem;
+  font-size: .88rem;
+  line-height: 1.7;
+  color: #cfe6e4;
+  text-wrap: balance;
+}
+
+.pied__note { font-size: .9rem; margin-top: 1.5rem; color: #a8ccca; }
 
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { transition: none !important; animation: none !important; }
