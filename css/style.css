@@ -106,11 +106,26 @@ img { max-width: 100%; height: auto; display: block; }
 
 .hero { background: #fff; }
 
-.hero__banner img { width: 100%; }
+.hero__banner { overflow: hidden; }
+
+/* Le bandeau (2800x615, ratio 4.55) occupe toute la largeur : 22vw correspond
+   à sa hauteur naturelle, il n'est donc pas rogné au-delà de ~600 px. En
+   dessous, la hauteur plancher de 130 px le fait zoomer sur le centre — les
+   marges latérales de l'illustration sont purement décoratives. */
+.hero__banner img {
+  width: 100%;
+  height: max(130px, 22vw);
+  object-fit: cover;
+  object-position: 50% 45%;
+}
 
 .hero__body {
   padding: 2rem 0 3rem;
   text-align: center;
+}
+
+@media (min-width: 800px) {
+  .hero__body { padding: 1.75rem 0 2.75rem; }
 }
 
 .hero__dates {
