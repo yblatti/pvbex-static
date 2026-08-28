@@ -1,0 +1,432 @@
+{
+  "annee": 2026,
+  "activites": [
+    {
+      "titre": "Atelier Attrape-Rêve",
+      "jour": "Lundi",
+      "categorie": "Création",
+      "age": "9 à 16 ans",
+      "description": "Crée ton propre attrape-rêves avec plumes, perles et couleurs, et repars avec un objet magique qui gardera tes nuits paisibles."
+    },
+    {
+      "titre": "Atelier Boule de Berlin",
+      "jour": "Lundi",
+      "categorie": "Cuisine",
+      "age": "8 à 15 ans",
+      "description": "Viens mettre la main à la pâte et découvre comment réaliser de délicieuses boules de Berlin, moelleuses et gourmandes ! Au Laboratoire des Pains Sans Peines à Aigle, tu apprendras les bases de cette pâtisserie et repartiras avec tes propres créations à partager… ou pas !"
+    },
+    {
+      "titre": "Education Canine",
+      "jour": "Lundi",
+      "categorie": "Nature & Découverte",
+      "age": "6 à 16 ans",
+      "description": "Education avec des chiens de famille. Participe à des ateliers représentant diverses disciplines canines avec le meilleur ami de l'homme"
+    },
+    {
+      "titre": "Irtag",
+      "jour": "Lundi",
+      "categorie": "Sport & Mouvement",
+      "age": "7 à 14 ans",
+      "description": "Viens nous rejoindre en plein air pour un jeu pacifique alliant le meilleur du paintball et du lasergame sans contraintes. Prends des habits de couleur sombre te couvrant les bras et les jambes et une boisson."
+    },
+    {
+      "titre": "LHC",
+      "jour": "Lundi",
+      "categorie": "Sport & Mouvement",
+      "age": "6 à 16 ans",
+      "description": "Entre dans les coulisses de la mythique Vaudoise Arena, la grande patinoire de la capitale olympique, et prépare toi pour une aventure pleine d’émotions — prépare tes stylos, avec un peu de chance, tu verras même les stars du Lausanne Hockey Club s’entraîner sous tes yeux !"
+    },
+    {
+      "titre": "Mushing Cani-rando",
+      "jour": "Lundi",
+      "categorie": "Sport & Mouvement",
+      "age": "10 à 16 ans",
+      "description": "Prêt(e) à vivre l’aventure ultime en forêt avec une meute de huskies ? Pour les 10–16 ans, découvre d’abord nos chiens lors d’une présentation toute en papouilles, puis enfile ton harnais pour une cani-rando pleine de sensations, de complicité et de fous rires !"
+    },
+    {
+      "titre": "Passion trains : découvre le Rail Club",
+      "jour": "Lundi",
+      "categorie": "Culture & Jeux",
+      "age": "6 à 10 ans",
+      "description": "Découvre le monde fascinant des trains miniatures au Rail Club de Bex ! Observe des réseaux ferroviaires miniatures, découvre comment ils sont construits, fais circuler les trains et crée ton propre wagon ou locomotive. Une activité idéale pour les passionnés de trains et de modélisme."
+    },
+    {
+      "titre": "Passâge",
+      "jour": "Lundi",
+      "categorie": "Cuisine",
+      "age": "8 à 16 ans",
+      "description": "Viens préparer un bon repas, décorer les tables et déguster ce que tu as cuisiné avec les aînés."
+    },
+    {
+      "titre": "Pixel Jump",
+      "jour": "Lundi",
+      "categorie": "Sport & Mouvement",
+      "age": "6 à 12 ans",
+      "description": "Un espace interactif où tu actives des dalles lumineuses avec tes pieds et tes mains pour relever des défits uniques à travers une avriété de jeux dynamiques."
+    },
+    {
+      "titre": "Poterie (modelage de l'argile)",
+      "jour": "Lundi",
+      "categorie": "Création",
+      "age": "9 à 15 ans",
+      "description": "Et si tu pouvais créer ton plus grand rêve en argile ? Imagine ce que tu aimerais réaliser plus tard et donne vie à ton idée grâce au modelage. Un atelier créatif pour rêver, inventer et repartir avec une création unique faite de tes mains !"
+    },
+    {
+      "titre": "Tir à air comprimé",
+      "jour": "Lundi",
+      "categorie": "Sport & Mouvement",
+      "age": "10 à 16 ans",
+      "description": "Deviens un as de la cible! Concentre-toi, vise et tir... Qui fera le meilleur score? Une activité ludique, sécurisée et pleine de défis entre amis!"
+    },
+    {
+      "titre": "TrekkMines",
+      "jour": "Lundi",
+      "categorie": "Nature & Découverte",
+      "age": "8 à 16 ans",
+      "description": "Pars à l’aventure pour découvrir galeries et escaliers parfois bas et étroits hors du circuit traditionnel. Avec casque et lampe frontale, glisse-toi dans la peau d’un mineur accompagné de nos guides chevronnés qui connaissent tous les secrets des Mines. Une exploration palpitante en toute sécurité ! Prends un pic nic, une boisson et ta lampe de poche pour découvrir les galeries secrètes."
+    },
+    {
+      "titre": "Attrape-Lumière",
+      "jour": "Mardi",
+      "categorie": "Création",
+      "age": "8 à 12 ans",
+      "description": "Joue avec les couleurs et la transparence pour créer ton attrape-lumière, une déco brillante qui fera danser les reflets du soleil chez toi."
+    },
+    {
+      "titre": "Chimie & art : atelier gravure avec l'éléctricité",
+      "jour": "Mardi",
+      "categorie": "Nature & Découverte",
+      "age": "9 à 16 ans",
+      "description": "Explore les principes de l'électrochimie en découvrant comment l'électrolyse permet de graver le cuivre avec précision. Après avoir préparé ton motif, tu réaliseras ta propre gravure tout en comprenant les réactions qui se produisent à la surface du métal. Un atelier mêlant sciences, technique et création artistique"
+    },
+    {
+      "titre": "Chimie & cuisine : atelier Popping Boba",
+      "jour": "Mardi",
+      "categorie": "Nature & Découverte",
+      "age": "9 à 16 ans",
+      "description": "Suis notre prof de chimie, et plonge dans les coulisses de la gastronomie moléculaire en découvrant le principe de la sphérification. Tu réaliseras tes propres perles de Popping Boba tout en comprenant les réactions chimiques qui leur donnent leur texture unique. Une expérience scientifique, créative et gourmande qui te permettra de repartir avec ton Bubble Tea personnalisé."
+    },
+    {
+      "titre": "Création bijoux",
+      "jour": "Mardi",
+      "categorie": "Création",
+      "age": "6 à 12 ans",
+      "description": "Viens découvrir comment recycler des capsules de café en confectionnant des bijoux"
+    },
+    {
+      "titre": "En cuisine les enfants",
+      "jour": "Mardi",
+      "categorie": "Cuisine",
+      "age": "7 à 8 ans",
+      "description": "Viens préparer un menu complet (entrée, plat, dessert) et déguster tes créations ! Tu découvriras les aliments de saison et de la région, apprendras l’importance d’une alimentation équilibrée et repartiras avec plein d’astuces pour cuisiner de bons petits plats pour toi et ta famille."
+    },
+    {
+      "titre": "Initiation à la conduite",
+      "jour": "Mardi",
+      "categorie": "Sensations",
+      "age": "12 à 16 ans",
+      "description": "12–16 ans, envie de piloter ton rêve ? Monte à bord d’une vraie voiture, plonge dans un briefing de pros, passe derrière le volant et sens ton cœur s’emballer à chaque accélération — adrénaline pure et sécurité maxi garanties !"
+    },
+    {
+      "titre": "Padel",
+      "jour": "Mardi",
+      "categorie": "Sport & Mouvement",
+      "age": "10 à 16 ans",
+      "description": "Cette année, viens découvrir le padel, le nouveau sport urbain à la mode qui cartonne : raquette en main, échanges rapides, smash décoiffants et ambiance 100 % fun entre amis !"
+    },
+    {
+      "titre": "Party-foot",
+      "jour": "Mardi",
+      "categorie": "Sport & Mouvement",
+      "age": "8 à 16 ans",
+      "description": "Bienvenue dans l’univers 100 % foot de PartyFoot ! Viens te défoule, tester ton adresse avec différente activité foot, le foot billard, volta football, affronter tes amis sur FIFA 25 à la PlayStation, ou encore te prendre pour une star avec le simulateur de foot ! Un vrai terrain de jeu pour tous les fans de ballon rond !"
+    },
+    {
+      "titre": "Premiers secours",
+      "jour": "Mardi",
+      "categorie": "Nature & Découverte",
+      "age": "8 à 14 ans",
+      "description": "Tu veux sauver des vies ? Viens apprendre les gestes qui font la différence, relever des défis d’urgence et devenir celui ou celle sur qui tout le monde peut compter quand chaque seconde compte !"
+    },
+    {
+      "titre": "Sur les trace de la police scientifique",
+      "jour": "Mardi",
+      "categorie": "Nature & Découverte",
+      "age": "",
+      "description": "Dans les locaux de l'Universtié de Lausanne, résous le cas d’un meurtre ou d’un cambriolage en menant l’enquête avec des spécialistes de la police scientifique ! Prêt à relever le défi ? Prends un goûter avec toi et une gourde."
+    },
+    {
+      "titre": "Vol en avion",
+      "jour": "Mardi",
+      "categorie": "Sensations",
+      "age": "6 à 16 ans",
+      "description": "On t'attends à l'aérodrome de Bex pour un vol au dessus de notre commune et du Chablais."
+    },
+    {
+      "titre": "À la découverte des Perroquets",
+      "jour": "Mardi",
+      "categorie": "Nature & Découverte",
+      "age": "6 à 10 ans",
+      "description": "Tu aimes les oiseaux ? Viens à l’Académie des Perroquets à Bex ! Tu découvriras plein de choses étonnantes sur les perroquets et d'autres oiseaux colorés. Tu pourras aussi faire des bricolages pour aider les oiseaux du refuge ! Une activité amusante, créative… et pleine de plumes. N’oublie pas de porter des habits longs sans brillants et d’enlever tes bijoux."
+    },
+    {
+      "titre": "Atelier chocolat Raffin",
+      "jour": "Mercredi",
+      "categorie": "Cuisine",
+      "age": "9 à 12 ans",
+      "description": "Viens découvrir les secrets du chocolat dans la confiserie Raffin à Monthey et réalise ta propre création aux côtés d'un maître chocolatier!"
+    },
+    {
+      "titre": "Atelier Fusing : crée ton petit vitrail en verre !",
+      "jour": "Mercredi",
+      "categorie": "Création",
+      "age": "8 à 15 ans",
+      "description": "À l’école du Vitrail à Monthey, tu réaliseras une jolie œuvre colorée en verre, avec la technique du thermocollage ! Ton chef-d’œuvre sera cuit dans un four spécial, et tu pourras le récupérer la semaine suivante. Pense à venir avec des habits qui ne craignent rien et de bonnes chaussures pour être à l’aise et en sécurité pendant l’activité."
+    },
+    {
+      "titre": "Centre Emys - Tortue",
+      "jour": "Mercredi",
+      "categorie": "Nature & Découverte",
+      "age": "6 à 16 ans",
+      "description": "Découvre de façon ludique le monde fascinant des tortues. Visite du centre avec les jardins. Explications sur le travail fait pas l'association depuis 30 ans. Les missions du Centre. Présentation des tortues. Différentes espèces, biologie des tortues, reproduction, hibernation, anecdote. Tortues aquatiques et terrestres."
+    },
+    {
+      "titre": "Cirque Snick",
+      "jour": "Mercredi",
+      "categorie": "Sport & Mouvement",
+      "age": "6 à 16 ans",
+      "description": "Deviens artiste de cirque le temps d'une matinée! Jonglage, équilibre, et défis ludiques pour faire le plein de sensations et de bonne humeur."
+    },
+    {
+      "titre": "Création d'une libellule",
+      "jour": "Mercredi",
+      "categorie": "Création",
+      "age": "9 à 16 ans",
+      "description": "Création d'une jolie libellule colorée en utilisant des petits bâtons, du fil et quelques décorations."
+    },
+    {
+      "titre": "Découverte de la faune et de la chasse",
+      "jour": "Mercredi",
+      "categorie": "Nature & Découverte",
+      "age": "6 à 16 ans",
+      "description": "Viens découvrir la faune de notre région et le monde de la chasse. Jeux, dégustation et parcours en forêt sont au programme. Mets de bonnes chaussure et des habits pas dommage en fonction de la météo, prends un pic-nic."
+    },
+    {
+      "titre": "Gellyball",
+      "jour": "Mercredi",
+      "categorie": "Sport & Mouvement",
+      "age": "8 à 15 ans",
+      "description": "Viens découvrir le GellyBall à Martigny, un jeu d'équipe amusant et dynamique, similaire au paintball, mais avec de petites billes d'eau biodégradables qui éclatent au contact sans faire mal. Cache-toi, élabore des stratégies avec ton équipe et relève différents défis dans une ambiance conviviale et sécurisée. Activité maintenu par tous les temps !"
+    },
+    {
+      "titre": "RCtag",
+      "jour": "Mercredi",
+      "categorie": "Sport & Mouvement",
+      "age": "8 à 16 ans",
+      "description": "Prends les commandes d'une voiture radiocommandée et défie les autres pilotes sur un circuit spécialement aménagé pour l'occasion! Vitesse, précision et fun seront au rendez- vous pour vivre une expérience de cours pleine d'adrénaline. Qui réalisera le meilleur chrono? Type Mario quarte réalité."
+    },
+    {
+      "titre": "Trampoline",
+      "jour": "Mercredi",
+      "categorie": "Sport & Mouvement",
+      "age": "6 à 16 ans",
+      "description": "Viens t'éclater dans le complexe de trampolines du Xstream Park. Prends des habits confortables et des chaussettes anti-dérapantes si tu en as ! Une gourde est indispensable."
+    },
+    {
+      "titre": "Visite de la Caserne des Pompiers",
+      "jour": "Mercredi",
+      "categorie": "Sensations",
+      "age": "7 à 10 ans",
+      "description": "Pars à la découverte de la caserne des pompiers de Bex ! Une activité immersive pour découvrir leur métier, approcher le feu en toute sécurité et apprendre à reconnaître les dangers et les bons réflexes à adopter. Une expérience ludique, impressionnante et pleine de découvertes !"
+    },
+    {
+      "titre": "Western City",
+      "jour": "Mercredi",
+      "categorie": "Culture & Jeux",
+      "age": "6 à 10 ans",
+      "description": "A quelques minutes de Martigny, Western City vous réserve de nombreuses animations géante. Loin de toute électronique, on renoue avec l’esprit des cow-boys et des indiens !"
+    },
+    {
+      "titre": "A la rencontre des Poneys",
+      "jour": "Jeudi",
+      "categorie": "Nature & Découverte",
+      "age": "6 à 9 ans",
+      "description": "Au Domaine du Rhône à Bex, viens découvrir l’univers des poneys ! Tu apprendras à t’en occuper, à travers des soins, des exercices à pied et des jeux en selle. N’oublie pas de porter un pantalon long et des chaussures fermées."
+    },
+    {
+      "titre": "Atelier boulangerie : animaux en pâte à tresse",
+      "jour": "Jeudi",
+      "categorie": "Cuisine",
+      "age": "7 à 15 ans",
+      "description": "Viens mettre la main à la pâte et découvre comment réaliser une délicieuse pâte à tresse. Au Laboratoire des Pains Sans Peines à Aigle, tu apprendras les bases de la boulangerie et t’amuseras à façonner des animaux en pâte à tresse. Tu repartiras avec tes propres créations à partager… ou pas !"
+    },
+    {
+      "titre": "Atelier Maquillage Artistique",
+      "jour": "Jeudi",
+      "categorie": "Création",
+      "age": "8 à 15 ans",
+      "description": "Viens découvrir le monde du maquillage artistique, à Evionnaz ! Dans cet atelier ludique, tu apprendras quelques techniques de grimage tout en t’amusant. Tu pourras t’exprimer librement en te maquillant toi-même, en maquillant un copain ou en t’exerçant sur du matériel prévu pour cela. Pas de maquillage fait par l’animatrice : ici, c’est toi l’artiste ! N’oublie pas de venir avec des habits pas dommage et confortables."
+    },
+    {
+      "titre": "César en Gaulle",
+      "jour": "Jeudi",
+      "categorie": "Culture & Jeux",
+      "age": "6 à 15 ans",
+      "description": "Deviens un soldat romain au temps de Jules César ! Apprends à manier le glaive, le bouclier, le pilum et la lance, entraîne-toi à la formation tortue et découvre les techniques de guerre de l’armée romaine. Initie-toi également à l’écriture antique en rédigeant ton propre papyrus comme un véritable scribe."
+    },
+    {
+      "titre": "Droguerie Garrone",
+      "jour": "Jeudi",
+      "categorie": "Nature & Découverte",
+      "age": "6 à 12 ans",
+      "description": "Viens créer tes essentiels pour l'hiver à la droguerie Garrone. Une bougie parfumée,un baume à lèvres, un roll-on aux huiles essentielles pour les petits refroidissements."
+    },
+    {
+      "titre": "Initiation Parkour",
+      "jour": "Jeudi",
+      "categorie": "Sport & Mouvement",
+      "age": "8 à 16 ans",
+      "description": "Viens découvrir le parkour et t'entraîner à l'art du déplacement tel des ninjas. Sauts, figures acrobatiques, passements d’obstacles., escalade. Ce sport te permettra de mieux te connaître et de surpasser tes propres limites. Habits de sport confortables, baskets pour l'intérieur et boisson."
+    },
+    {
+      "titre": "KFM",
+      "jour": "Jeudi",
+      "categorie": "Sport & Mouvement",
+      "age": "6 à 16 ans",
+      "description": "Viens bouger avec style et découvrir l’univers dynamique du Breakdance et du Hip-Hop ! Avec l’équipe passionnée de KFM Crew, tu apprendras les bases de ces danses urbaines à travers des ateliers fun et énergiques, adaptés à tous les niveaux. Que tu sois débutant ou que tu aies déjà un peu d’expérience, cette activité est faite pour toi ! Ambiance conviviale, musique entraînante, et bonne humeur garanties !"
+    },
+    {
+      "titre": "La terre tremble",
+      "jour": "Jeudi",
+      "categorie": "Nature & Découverte",
+      "age": "9 à 16 ans",
+      "description": "Une journée pleine de découvertes! Le matin, initie-toi à la robotique en programmant et en faisant évoluer des robots. L'après-midi, plonge dans le monde des séismes avec des expériences captivantes et un simulateur pour ressentir les tremblements de terre comme si tu y étais!"
+    },
+    {
+      "titre": "Lampe de chevet en Métal",
+      "jour": "Jeudi",
+      "categorie": "Création",
+      "age": "8 à 15 ans",
+      "description": "Viens découvrir le travail du métal et la découpe laser à Monthey. Tu auras l'occasion de fabriquer ta propre lampe de chevet en métal, étape par étape, avec un motif personnalisé selon tes envies."
+    },
+    {
+      "titre": "Real fly",
+      "jour": "Jeudi",
+      "categorie": "Sensations",
+      "age": "6 à 16 ans",
+      "description": "Réalise ton rêve de voler sans impression de vertige, ni de vide. 2 sessions sont prévues durant ta visite. Munis-toi de baskets (si tu as déjà fait cette activité durant nos précédentes éditions, merci de laisser ta place aux copains). Une participation supplémentaire de 10.- est demandé pour cette activité. Une autorisation sera à compléter en ligne par tes parents (le lien sera transmis après la répartition des activités)"
+    },
+    {
+      "titre": "Reitzel",
+      "jour": "Jeudi",
+      "categorie": "Cuisine",
+      "age": "6 à 12 ans",
+      "description": "Entre dans les laboratoires Hugo Reitzel et découvre les secrets de production de cornichons, oignons et sauces. Laisse toi surprendre par l'unique conserverie du pays et profites d'une dégustation à la fin de la visite. VOIRE REGLE D'HYGIENE dans le fichier joint"
+    },
+    {
+      "titre": "Tir a l'arc",
+      "jour": "Jeudi",
+      "categorie": "Sport & Mouvement",
+      "age": "9 à 16 ans",
+      "description": "Découvre le tir à l’arc, un sport olympique très complet qui demande force, adresse, concentration et équilibre. Une activité qui rassemble histoire, nature, sport et des arcs aussi bien high-tech que traditionnels."
+    },
+    {
+      "titre": "Visite Biscuiterie - Maison Agathe",
+      "jour": "Jeudi",
+      "categorie": "Cuisine",
+      "age": "8 à 16 ans",
+      "description": "Viens découvrir la Biscuiterie Agathe, à Villeneuve, un lieu authentique plein de bonnes odeurs et de douceurs ! Tu verras comment naissent leurs biscuits croustillants dans l’atelier, puis tu pourras explorer le magasin et goûter plein de bons biscuits faits avec soin, en respectant la nature et notre région. Une aventure gourmande à ne pas manquer !"
+    },
+    {
+      "titre": "Alimentarium",
+      "jour": "Vendredi",
+      "categorie": "Cuisine",
+      "age": "6 à 12 ans",
+      "description": "Du roulé à la cannelle aux barres de riz soufflé, compose un goûter sain dans une cuisine aménagée pour toi. Explore le potager pour cueillir herbes et fruits de saison et préparer une boisson rafraîchissante, puis profite d'une pause bien méritée dans l'Espace Junior et ses 25 jeux dédiés à l'alimentation!"
+    },
+    {
+      "titre": "Atelier Poterie",
+      "jour": "Vendredi",
+      "categorie": "Création",
+      "age": "6 à 16 ans",
+      "description": "Mets les mains dans la terre et laisse parler ta créativité ! Découvre les bases de la poterie et repars avec une petite œuvre faite par toi."
+    },
+    {
+      "titre": "Bodyboard",
+      "jour": "Vendredi",
+      "categorie": "Sport & Mouvement",
+      "age": "8 à 16 ans",
+      "description": "Viens surfer sur la vague du Xstream Park, sensation de glisse assurée ! Prends avec toi un costume de bain, un linge et une gourde. Une participation supplémentaire de 10.- est demandé pour cette activité."
+    },
+    {
+      "titre": "Bowling & Lasergame",
+      "jour": "Vendredi",
+      "categorie": "Culture & Jeux",
+      "age": "6 à 10 ans",
+      "description": "Viens défier tes amis dans une partie de LaserGame, dans un environnement à la fois obscur et déroutant, puis continue avec une partie de Bowling à Martigny."
+    },
+    {
+      "titre": "Bricolage surprise",
+      "jour": "Vendredi",
+      "categorie": "Création",
+      "age": "6 à 10 ans",
+      "description": "Bricolage surprise sur le thème d'Halloween."
+    },
+    {
+      "titre": "Crée ton propre Kit de jeu avec de la Pâte à modeler",
+      "jour": "Vendredi",
+      "categorie": "Création",
+      "age": "6 à 9 ans",
+      "description": "Viens participer à un atelier ludique et sensoriel ou tu vas fabriquer ta propre pâte à modeler ! Couleurs, parfums, paillettes ... tout est personnalisable pour une touche de magie. En plus, tu repartiras avec un kit de jeu complet, rempli d'accessoires pour prolonger l'aventure à la maison. Une activité parfaite pour éveiller tes sens et stimuler ta créativité !"
+    },
+    {
+      "titre": "Dessin Manga",
+      "jour": "Vendredi",
+      "categorie": "Création",
+      "age": "6 à 16 ans",
+      "description": "Atelier où tu découvriras les différentes techniques de dessin, apprends à dessiner tes propres Chibi Kawaii. Des mangas en petit format, grosse tête et petit corps. Et repars chez toi avec ton oeuvre."
+    },
+    {
+      "titre": "Lancer de hache",
+      "jour": "Vendredi",
+      "categorie": "Sport & Mouvement",
+      "age": "9 à 16 ans",
+      "description": "Viens tester ton adresse au lancer de hache comme les jeunes guerriers d'autrefois."
+    },
+    {
+      "titre": "Mines de Sel",
+      "jour": "Vendredi",
+      "categorie": "Nature & Découverte",
+      "age": "6 à 16 ans",
+      "description": "Viens découvrir l'origine du sel des Alpes dans un immense labyrinthe souterrain. Le parcours te permettra de découvrir les éléments les plus spectaculaires et les plus caractéristiques des diverses techniques utilisées pour l'extraction du sel. Mets de bonnes chaussures et des habits chauds."
+    },
+    {
+      "titre": "Passâge",
+      "jour": "Vendredi",
+      "categorie": "Cuisine",
+      "age": "8 à 16 ans",
+      "description": "Viens préparer un bon repas, décorer les tables et déguster ce que tu as cuisiné avec les aînés."
+    },
+    {
+      "titre": "Survie en forêt",
+      "jour": "Vendredi",
+      "categorie": "Nature & Découverte",
+      "age": "8 à 16 ans",
+      "description": "Initiation aux techniques nécessaires à la survie en forêt. Une expérience qui permet de devenir plus confortable et indépendant dans la nature. Prends de bonnes chaussures, vêtements adaptés pour la forêt et à la météo, pic-nic et boissons."
+    },
+    {
+      "titre": "Théatre forum",
+      "jour": "Vendredi",
+      "categorie": "Sport & Mouvement",
+      "age": "6 à 16 ans",
+      "description": "Monte sur scène, ose t’exprimer et deviens le héros de l’histoire dans un théâtre interactif où tout peut changer grâce à tes idées — ici, tu ne regardes pas le spectacle… tu le transformes !"
+    },
+    {
+      "titre": "À la découverte des Perroquets",
+      "jour": "Vendredi",
+      "categorie": "Nature & Découverte",
+      "age": "10 à 15 ans",
+      "description": "Plonge dans l’univers fascinant des oiseaux exotiques lors d’une visite à l’Académie des Perroquets à Bex ! Découvre les pensionnaires du refuge et participe à la préparation de leurs repas. N’oublie pas de porter des habits longs, sans éléments brillants, et d’enlever tes bijoux."
+    }
+  ]
+}

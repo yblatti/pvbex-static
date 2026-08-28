@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Passeport Vacances Bex 2026 — du 19 au 23 octobre</title>
+<meta name="description" content="Passeport Vacances de Bex, du 19 au 23 octobre 2026. Une semaine d'activités, de découvertes et d'aventures pour les jeunes de Bex, de la 3H à la 11H.">
+<meta name="theme-color" content="#185E5D">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#activites">Aller aux activités</a>
+
+<header class="hero">
+  <div class="hero__banner">
+    <img src="assets/img/header.png" alt="Passeport Vacances Bex" width="2200" height="851">
+  </div>
+  <div class="wrap hero__body">
+    <p class="hero__dates">Du 19 au 23 octobre 2026</p>
+    <h1 class="hero__title">Venez vivre une semaine d’activités,<br>de découvertes et d’aventures&nbsp;!</h1>
+    <p class="hero__sub">Pour les jeunes de Bex, de la 3H à la 11H.</p>
+    <a class="btn" href="#activites">Découvrir les activités</a>
+  </div>
+</header>
+
+<main>
+
+  <section class="wrap infos" aria-labelledby="infos-titre">
+    <h2 id="infos-titre" class="sr-only">Informations pratiques</h2>
+    <ul class="infos__grid">
+      <li class="info info--orange">
+        <p class="info__label">La semaine</p>
+        <p class="info__value">19 – 23 octobre 2026</p>
+        <p class="info__note">Du lundi au vendredi.</p>
+      </li>
+      <li class="info info--green">
+        <p class="info__label">Vente des passeports</p>
+        <p class="info__value">Mercredi 16 septembre</p>
+        <p class="info__note">De 14h à 17h, au Minot.</p>
+      </li>
+      <li class="info info--teal">
+        <p class="info__label">Pour qui&nbsp;?</p>
+        <p class="info__value">De la 3H à la 11H</p>
+        <p class="info__note">Les jeunes de Bex.</p>
+      </li>
+    </ul>
+  </section>
+
+  <section class="wrap activites" id="activites" aria-labelledby="activites-titre">
+    <h2 id="activites-titre" class="section-title">Aperçu des activités 2026</h2>
+    <p class="section-intro">
+      Parcourez le programme de la semaine. Cet aperçu est donné à titre indicatif&nbsp;:
+      les horaires, les lieux et le nombre de places figurent dans le passeport.
+    </p>
+
+    <div class="filtres">
+      <div class="filtres__search">
+        <label class="sr-only" for="recherche">Rechercher une activité</label>
+        <svg class="filtres__icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M16.5 16.5 21 21"/></svg>
+        <input type="search" id="recherche" placeholder="Rechercher une activité…" autocomplete="off">
+      </div>
+
+      <div class="filtres__row">
+        <fieldset class="chips" id="filtre-jour">
+          <legend>Jour</legend>
+        </fieldset>
+        <fieldset class="chips" id="filtre-categorie">
+          <legend>Thématique</legend>
+        </fieldset>
+        <div class="filtres__age">
+          <label for="filtre-age">Âge</label>
+          <select id="filtre-age">
+            <option value="">Tous les âges</option>
+          </select>
+        </div>
+      </div>
+
+      <p class="filtres__bilan">
+        <span id="compteur" role="status"></span>
+        <button type="button" class="lien-reset" id="reset" hidden>Réinitialiser les filtres</button>
+      </p>
+    </div>
+
+    <ul class="grille" id="grille"></ul>
+
+    <p class="vide" id="vide" hidden>
+      Aucune activité ne correspond à votre recherche.
+    </p>
+
+    <p class="erreur" id="erreur" hidden></p>
+  </section>
+
+</main>
+
+<footer class="pied">
+  <div class="wrap">
+    <p class="pied__nom">Passeport Vacances Bex</p>
+    <p class="pied__contact">
+      Une question&nbsp;? <a href="mailto:info@pvbex.ch">info@pvbex.ch</a>
+    </p>
+    <p class="pied__note">Programme sous réserve de modifications. — pvbex.ch</p>
+  </div>
+</footer>
+
+<script src="js/app.js"></script>
+</body>
+</html>
