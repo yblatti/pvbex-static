@@ -13,6 +13,7 @@ data/activites.json     ← la liste des activités (à mettre à jour)
 assets/fonts/           Fredoka + Nunito (woff2, sous-ensembles latin)
 assets/img/header.png   bandeau
 assets/img/favicon.svg
+assets/ics/              fichiers « ajouter au calendrier » (.ics)
 tools/xlsx_to_json.py   régénère data/activites.json depuis input/activites.xlsx
 input/                  sources de travail (non publiées)
 ```
@@ -60,7 +61,24 @@ python3 -m http.server 8000
 # puis http://localhost:8000
 ```
 
+## Ajouter au calendrier
+
+Deux fichiers `.ics` statiques, liés depuis les encarts d'infos pratiques :
+
+- `assets/ics/passeport-vacances-bex-2026.ics` — la semaine (19 → 23 octobre,
+  événement sur la journée entière) ;
+- `assets/ics/vente-passeports-2026.ics` — la vente (16 septembre, 14h–17h,
+  fuseau Europe/Zurich).
+
+Ils sont écrits à la main : penser à les mettre à jour en même temps que les
+dates de `index.html`, et à changer les `UID` (`…-2026@pvbex.ch`) d'une année
+à l'autre, sinon les agendas qui ont déjà l'événement le remplaceront.
+
 ## Mise en ligne
 
 Copier le contenu du dépôt à la racine du site, à l'exception de `input/`
-et `tools/`. Aucune configuration serveur particulière n'est nécessaire.
+et `tools/`. Aucune configuration serveur particulière n'est nécessaire, à
+un détail près : le serveur doit servir les `.ics` en `text/calendar` (c'est
+le cas par défaut de nginx, Apache et des hébergeurs statiques courants).
+Sinon les navigateurs afficheront le fichier au lieu de l'ouvrir dans
+l'agenda.

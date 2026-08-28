@@ -196,6 +196,24 @@ img { max-width: 100%; height: auto; display: block; }
 }
 .info__note { color: var(--encre-doux); font-size: .95rem; }
 
+.info__cal { margin-top: .8rem; }
+.info__cal a {
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+  font-size: .88rem;
+  font-weight: 700;
+  color: var(--teal);
+  text-decoration: none;
+}
+.info__cal a:hover { text-decoration: underline; }
+.info__cal svg {
+  flex: none;
+  width: 16px; height: 16px;
+  fill: none; stroke: currentColor;
+  stroke-width: 1.8; stroke-linecap: round;
+}
+
 /* ---------- Section activités ---------- */
 
 .activites { padding: 3.5rem 0 4rem; }
