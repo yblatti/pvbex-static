@@ -170,6 +170,8 @@ img { max-width: 100%; height: auto; display: block; }
 }
 
 .info {
+  display: flex;
+  flex-direction: column;
   background: var(--carte);
   border-radius: var(--r-m);
   border-top: 5px solid var(--teal-clair);
@@ -179,6 +181,7 @@ img { max-width: 100%; height: auto; display: block; }
 .info--orange { border-top-color: var(--orange); }
 .info--green  { border-top-color: var(--vert); }
 .info--teal   { border-top-color: var(--teal-clair); }
+.info--ciel   { border-top-color: var(--ciel); }
 
 .info__label {
   font-size: .78rem;
@@ -196,8 +199,8 @@ img { max-width: 100%; height: auto; display: block; }
 }
 .info__note { color: var(--encre-doux); font-size: .95rem; }
 
-.info__cal { margin-top: .8rem; }
-.info__cal a {
+.info__lien { margin-top: auto; padding-top: .8rem; }
+.info__lien a {
   display: inline-flex;
   align-items: center;
   gap: .4rem;
@@ -206,8 +209,8 @@ img { max-width: 100%; height: auto; display: block; }
   color: var(--teal);
   text-decoration: none;
 }
-.info__cal a:hover { text-decoration: underline; }
-.info__cal svg {
+.info__lien a:hover { text-decoration: underline; }
+.info__lien svg {
   flex: none;
   width: 16px; height: 16px;
   fill: none; stroke: currentColor;
@@ -277,6 +280,9 @@ img { max-width: 100%; height: auto; display: block; }
   fill: none; stroke: currentColor;
   stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round;
 }
+
+/* Le logo WhatsApp est un tracé plein, pas un pictogramme au trait. */
+svg.icone-plein { fill: currentColor; stroke: none; }
 
 .achat__pied {
   margin-top: 1.75rem;
@@ -563,6 +569,23 @@ mark {
   color: #cfe6e4;
   text-wrap: balance;
 }
+
+.pied__wa { margin-top: .9rem; }
+.pied__wa a {
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+  padding: .45rem 1.1rem;
+  border: 1px solid rgba(255, 255, 255, .35);
+  border-radius: 999px;
+  font-size: .9rem;
+  font-weight: 700;
+  color: #fff;
+  text-decoration: none;
+  transition: background .15s, border-color .15s;
+}
+.pied__wa a:hover { background: rgba(255, 255, 255, .12); border-color: #fff; }
+.pied__wa svg { flex: none; width: 17px; height: 17px; }
 
 .pied__note { font-size: .9rem; margin-top: 1.5rem; color: #a8ccca; }
 
