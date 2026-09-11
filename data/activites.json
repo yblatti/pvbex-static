@@ -89,7 +89,7 @@
       "titre": "Attrape-Lumière",
       "jour": "Mardi",
       "categorie": "Création",
-      "age": "8 à 12 ans",
+      "age": "8 à 10 ans",
       "description": "Joue avec les couleurs et la transparence pour créer ton attrape-lumière, une déco brillante qui fera danser les reflets du soleil chez toi."
     },
     {
@@ -180,7 +180,7 @@
       "titre": "Atelier Fusing : crée ton petit vitrail en verre !",
       "jour": "Mercredi",
       "categorie": "Création",
-      "age": "8 à 15 ans",
+      "age": "8 à 12 ans",
       "description": "À l’école du Vitrail à Monthey, tu réaliseras une jolie œuvre colorée en verre, avec la technique du thermocollage ! Ton chef-d’œuvre sera cuit dans un four spécial, et tu pourras le récupérer la semaine suivante. Pense à venir avec des habits qui ne craignent rien et de bonnes chaussures pour être à l’aise et en sécurité pendant l’activité."
     },
     {
@@ -223,7 +223,7 @@
       "jour": "Mercredi",
       "categorie": "Sport & Mouvement",
       "age": "8 à 16 ans",
-      "description": "Prends les commandes d'une voiture radiocommandée et défie les autres pilotes sur un circuit spécialement aménagé pour l'occasion! Vitesse, précision et fun seront au rendez- vous pour vivre une expérience de cours pleine d'adrénaline. Qui réalisera le meilleur chrono? Type Mario quarte réalité."
+      "description": "Prends les commandes d'une voiture radiocommandée et défie les autres pilotes sur un circuit spécialement aménagé pour l'occasion! Vitesse, précision et fun seront au rendez- vous pour vivre une expérience de cours pleine d'adrénaline. Qui réalisera le meilleur chrono? Type Mario Kart réalité."
     },
     {
       "titre": "Trampoline",
@@ -268,13 +268,6 @@
       "description": "Viens découvrir le monde du maquillage artistique, à Evionnaz ! Dans cet atelier ludique, tu apprendras quelques techniques de grimage tout en t’amusant. Tu pourras t’exprimer librement en te maquillant toi-même, en maquillant un copain ou en t’exerçant sur du matériel prévu pour cela. Pas de maquillage fait par l’animatrice : ici, c’est toi l’artiste ! N’oublie pas de venir avec des habits pas dommage et confortables."
     },
     {
-      "titre": "César en Gaulle",
-      "jour": "Jeudi",
-      "categorie": "Culture & Jeux",
-      "age": "6 à 15 ans",
-      "description": "Deviens un soldat romain au temps de Jules César ! Apprends à manier le glaive, le bouclier, le pilum et la lance, entraîne-toi à la formation tortue et découvre les techniques de guerre de l’armée romaine. Initie-toi également à l’écriture antique en rédigeant ton propre papyrus comme un véritable scribe."
-    },
-    {
       "titre": "Droguerie Garrone",
       "jour": "Jeudi",
       "categorie": "Nature & Découverte",
@@ -287,6 +280,13 @@
       "categorie": "Sport & Mouvement",
       "age": "8 à 16 ans",
       "description": "Viens découvrir le parkour et t'entraîner à l'art du déplacement tel des ninjas. Sauts, figures acrobatiques, passements d’obstacles., escalade. Ce sport te permettra de mieux te connaître et de surpasser tes propres limites. Habits de sport confortables, baskets pour l'intérieur et boisson."
+    },
+    {
+      "titre": "Jules César et la guerre Gaulle",
+      "jour": "Jeudi",
+      "categorie": "Culture & Jeux",
+      "age": "6 à 15 ans",
+      "description": "Deviens un soldat romain au temps de Jules César ! Apprends à manier le glaive, le bouclier, le pilum et la lance, entraîne-toi à la formation tortue et découvre les techniques de guerre de l’armée romaine. Initie-toi également à l’écriture antique en rédigeant ton propre papyrus comme un véritable scribe."
     },
     {
       "titre": "KFM",
@@ -306,7 +306,7 @@
       "titre": "Lampe de chevet en Métal",
       "jour": "Jeudi",
       "categorie": "Création",
-      "age": "8 à 15 ans",
+      "age": "7 à 15 ans",
       "description": "Viens découvrir le travail du métal et la découpe laser à Monthey. Tu auras l'occasion de fabriquer ta propre lampe de chevet en métal, étape par étape, avec un motif personnalisé selon tes envies."
     },
     {
@@ -355,7 +355,7 @@
       "titre": "Bodyboard",
       "jour": "Vendredi",
       "categorie": "Sport & Mouvement",
-      "age": "8 à 16 ans",
+      "age": "8 à 10 ans",
       "description": "Viens surfer sur la vague du Xstream Park, sensation de glisse assurée ! Prends avec toi un costume de bain, un linge et une gourde. Une participation supplémentaire de 10.- est demandé pour cette activité."
     },
     {
