@@ -15,6 +15,7 @@ assets/img/header.png   bandeau
 assets/img/favicon.svg
 assets/ics/              fichiers « ajouter au calendrier » (.ics)
 tools/xlsx_to_json.py   régénère data/activites.json depuis input/activites.xlsx
+tools/cache_bust.py     versionne les liens CSS/JS (à lancer avant publication)
 input/                  sources de travail (non publiées)
 ```
 
@@ -73,6 +74,32 @@ Deux fichiers `.ics` statiques, liés depuis les encarts d'infos pratiques :
 Ils sont écrits à la main : penser à les mettre à jour en même temps que les
 dates de `index.html`, et à changer les `UID` (`…-2026@pvbex.ch`) d'une année
 à l'autre, sinon les agendas qui ont déjà l'événement le remplaceront.
+
+## Éviter le cache du navigateur
+
+`index.html` référence le CSS et le JS avec une empreinte de leur contenu
+(`css/style.css?v=084b4769`). Sans elle, un visiteur déjà venu garde
+l'ancienne feuille de style en cache et voit la nouvelle page avec les
+anciens styles.
+
+Après toute modification de `css/style.css` ou `js/app.js`, et **avant de
+mettre en ligne** :
+
+```sh
+python3 tools/cache_bust.py
+```
+
+Le script recalcule les empreintes et met `index.html` à jour. Il est
+idempotent : le relancer sans avoir touché au CSS ni au JS ne change rien.
+
+Une condition côté hébergeur : `index.html` lui-même ne doit pas être mis en
+cache longuement, sinon le navigateur ne voit jamais la nouvelle empreinte.
+C'est le réglage par défaut de la plupart des hébergeurs statiques ; en cas
+de doute, viser `Cache-Control: no-cache` sur le `.html` (les fichiers
+versionnés, eux, peuvent être mis en cache aussi longtemps qu'on veut).
+
+`data/activites.json` n'est pas concerné : `js/app.js` le charge déjà avec
+`cache: 'no-cache'`.
 
 ## Mise en ligne
 
