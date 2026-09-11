@@ -530,6 +530,53 @@ mark {
 }
 .erreur { border-color: #e6b7a8; color: #a8452a; }
 
+/* ---------- Sponsors ---------- */
+
+.sponsors { padding-bottom: 4rem; }
+
+.sponsors__liste {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+  gap: .75rem;
+  margin-top: 1.75rem;
+  list-style: none;
+  padding: 0;
+}
+
+.sponsor {
+  display: flex;
+  background: var(--carte);
+  border: 1px solid var(--bord);
+  border-radius: var(--r-m);
+  transition: border-color .15s, box-shadow .15s, translate .15s;
+}
+
+/* Le lien remplit toute la tuile : la cible cliquable couvre la carte. */
+.sponsor > a,
+.sponsor > span {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  min-height: 64px;
+  padding: .85rem 1rem;
+  font-family: var(--titre);
+  font-size: .98rem;
+  line-height: 1.25;
+  color: var(--teal);
+  text-align: center;
+  text-decoration: none;
+  text-wrap: balance;
+}
+
+.sponsor:has(a):hover {
+  border-color: var(--teal-clair);
+  box-shadow: var(--ombre);
+  translate: 0 -2px;
+}
+.sponsor > a:hover { text-decoration: underline; }
+.sponsor > a:focus-visible { border-radius: var(--r-m); }
+
 /* ---------- Pied ---------- */
 
 .pied {
