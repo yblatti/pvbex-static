@@ -303,6 +303,20 @@ svg.icone-plein { fill: currentColor; stroke: none; }
 
 .choix { padding-top: 3.5rem; }
 
+/* Même panneau que « Comment acheter » : fond teal, textes clairs. */
+.choix__panneau {
+  background: var(--teal);
+  color: #cfe6e4;
+  border-radius: var(--r-l);
+  padding: 2rem 2.25rem 2.25rem;
+}
+.choix__panneau .section-title { color: #fff; }
+.choix__panneau .section-intro { color: #cfe6e4; }
+
+@media (max-width: 560px) {
+  .choix__panneau { padding: 1.5rem 1.35rem 1.75rem; }
+}
+
 .choix__regles {
   display: grid;
   gap: 1rem;
@@ -314,15 +328,14 @@ svg.icone-plein { fill: currentColor; stroke: none; }
   display: flex;
   align-items: center;
   gap: 1rem;
-  background: var(--carte);
+  background: rgba(255, 255, 255, .08);
   border-radius: var(--r-m);
   border-left: 5px solid var(--orange);
   padding: 1rem 1.25rem;
-  box-shadow: var(--ombre);
   font-size: .96rem;
-  color: var(--encre-doux);
+  color: #cfe6e4;
 }
-.regle strong { color: var(--encre); }
+.regle strong { color: #fff; }
 
 .regle__chiffre {
   flex: none;
@@ -332,7 +345,7 @@ svg.icone-plein { fill: currentColor; stroke: none; }
   font-weight: 600;
   line-height: 1;
   text-align: center;
-  color: var(--teal);
+  color: var(--orange);
 }
 
 .choix__etapes {
@@ -347,8 +360,7 @@ svg.icone-plein { fill: currentColor; stroke: none; }
 
 .etape {
   counter-increment: etape;
-  background: var(--carte);
-  border: 1px solid var(--bord);
+  border: 1px solid rgba(255, 255, 255, .18);
   border-radius: var(--r-m);
   padding: 1.25rem 1.4rem 1.4rem;
 }
@@ -358,8 +370,8 @@ svg.icone-plein { fill: currentColor; stroke: none; }
   place-items: center;
   width: 2.2rem; height: 2.2rem;
   border-radius: 50%;
-  background: var(--teal);
-  color: #fff;
+  background: var(--orange);
+  color: var(--encre);
   font-family: var(--titre);
   font-weight: 600;
   font-size: 1.1rem;
@@ -368,19 +380,19 @@ svg.icone-plein { fill: currentColor; stroke: none; }
 .etape__titre {
   margin-top: .75rem;
   font-size: 1.2rem;
-  color: var(--teal);
+  color: #fff;
 }
 .etape__note {
   margin-top: .25rem;
   font-size: .9rem;
   font-weight: 700;
-  color: var(--encre-doux);
+  color: #8fbdbb;
 }
 
 .etape__liste {
   margin-top: .8rem;
   font-size: .95rem;
-  color: #2c4f4e;
+  color: #cfe6e4;
 }
 .etape__liste li {
   position: relative;
@@ -402,8 +414,11 @@ svg.icone-plein { fill: currentColor; stroke: none; }
   align-items: center;
   gap: 1rem 2rem;
   margin-top: 1.75rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(255, 255, 255, .18);
 }
-.choix__btn { margin-top: 0; }
+.choix__btn { margin-top: 0; background: var(--orange); color: var(--encre); }
+.choix__btn:hover { background: #ffc466; }
 
 .choix__manuels {
   display: flex;
@@ -411,7 +426,7 @@ svg.icone-plein { fill: currentColor; stroke: none; }
   align-items: center;
   gap: .5rem;
   font-size: .9rem;
-  color: var(--encre-doux);
+  color: #8fbdbb;
 }
 .choix__manuels-label { flex-basis: 100%; }
 .choix__manuels a {
@@ -419,15 +434,14 @@ svg.icone-plein { fill: currentColor; stroke: none; }
   align-items: center;
   gap: .45rem;
   padding: .4rem .95rem;
-  background: var(--carte);
-  border: 1px solid var(--bord);
+  border: 1px solid rgba(255, 255, 255, .35);
   border-radius: 999px;
   font-weight: 700;
-  color: var(--teal);
+  color: #fff;
   text-decoration: none;
-  transition: border-color .15s;
+  transition: background .15s, border-color .15s;
 }
-.choix__manuels a:hover { border-color: var(--teal-clair); text-decoration: underline; }
+.choix__manuels a:hover { background: rgba(255, 255, 255, .12); border-color: #fff; }
 .choix__manuels svg {
   flex: none;
   width: 16px; height: 16px;
