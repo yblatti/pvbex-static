@@ -299,6 +299,142 @@ svg.icone-plein { fill: currentColor; stroke: none; }
 }
 .achat__pied a:hover { color: var(--orange); }
 
+/* ---------- Choisir ses activités ---------- */
+
+.choix { padding-top: 3.5rem; }
+
+.choix__regles {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  margin-top: 1.75rem;
+}
+
+.regle {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background: var(--carte);
+  border-radius: var(--r-m);
+  border-left: 5px solid var(--orange);
+  padding: 1rem 1.25rem;
+  box-shadow: var(--ombre);
+  font-size: .96rem;
+  color: var(--encre-doux);
+}
+.regle strong { color: var(--encre); }
+
+.regle__chiffre {
+  flex: none;
+  width: 2.6rem;
+  font-family: var(--titre);
+  font-size: 2.2rem;
+  font-weight: 600;
+  line-height: 1;
+  text-align: center;
+  color: var(--teal);
+}
+
+.choix__etapes {
+  counter-reset: etape;
+  display: grid;
+  gap: 1.1rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  margin: 1.5rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.etape {
+  counter-increment: etape;
+  background: var(--carte);
+  border: 1px solid var(--bord);
+  border-radius: var(--r-m);
+  padding: 1.25rem 1.4rem 1.4rem;
+}
+.etape::before {
+  content: counter(etape);
+  display: grid;
+  place-items: center;
+  width: 2.2rem; height: 2.2rem;
+  border-radius: 50%;
+  background: var(--teal);
+  color: #fff;
+  font-family: var(--titre);
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.etape__titre {
+  margin-top: .75rem;
+  font-size: 1.2rem;
+  color: var(--teal);
+}
+.etape__note {
+  margin-top: .25rem;
+  font-size: .9rem;
+  font-weight: 700;
+  color: var(--encre-doux);
+}
+
+.etape__liste {
+  margin-top: .8rem;
+  font-size: .95rem;
+  color: #2c4f4e;
+}
+.etape__liste li {
+  position: relative;
+  padding-left: 1.1rem;
+}
+.etape__liste li + li { margin-top: .4rem; }
+.etape__liste li::before {
+  content: '';
+  position: absolute;
+  left: 0; top: .6em;
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  background: var(--teal-clair);
+}
+
+.choix__actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem 2rem;
+  margin-top: 1.75rem;
+}
+.choix__btn { margin-top: 0; }
+
+.choix__manuels {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .5rem;
+  font-size: .9rem;
+  color: var(--encre-doux);
+}
+.choix__manuels-label { flex-basis: 100%; }
+.choix__manuels a {
+  display: inline-flex;
+  align-items: center;
+  gap: .45rem;
+  padding: .4rem .95rem;
+  background: var(--carte);
+  border: 1px solid var(--bord);
+  border-radius: 999px;
+  font-weight: 700;
+  color: var(--teal);
+  text-decoration: none;
+  transition: border-color .15s;
+}
+.choix__manuels a:hover { border-color: var(--teal-clair); text-decoration: underline; }
+.choix__manuels svg {
+  flex: none;
+  width: 16px; height: 16px;
+  fill: none; stroke: currentColor;
+  stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round;
+}
+
 /* ---------- Section activités ---------- */
 
 .activites { padding: 3.5rem 0 4rem; }
