@@ -7,7 +7,7 @@
 <meta name="description" content="Passeport Vacances de Bex, du 19 au 23 octobre 2026. Une semaine d'activités, de découvertes et d'aventures pour les jeunes de Bex, de la 3H à la 11H.">
 <meta name="theme-color" content="#185E5D">
 <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="css/style.css?v=60d9496f">
+<link rel="stylesheet" href="css/style.css?v=636c1473">
 </head>
 <body>
 
@@ -106,7 +106,7 @@
           <p class="achat__fort">Réservez vos activités</p>
           <p>
             Une fois le passeport acheté, la réservation des activités se fera
-            en ligne. Les informations vous seront communiquées.
+            en ligne.
           </p>
           <p class="achat__carte">
             <a href="#choix">
@@ -127,11 +127,23 @@
 
   <section class="wrap choix" id="choix" aria-labelledby="choix-titre">
     <div class="choix__panneau">
-      <h2 id="choix-titre" class="section-title">Comment choisir mes activités&nbsp;?</h2>
-      <p class="section-intro">
-        Les souhaits d’activités se font en ligne, sur le site de réservation du
-        Passeport Vacances. Voici l’essentiel pour bien remplir votre liste.
-      </p>
+      <div class="choix__entete">
+        <div>
+          <h2 id="choix-titre" class="section-title">Comment choisir mes activités&nbsp;?</h2>
+          <p class="section-intro">
+            Les souhaits d’activités se font en ligne, sur le site de réservation du
+            Passeport Vacances. Voici l’essentiel pour bien remplir votre liste.
+          </p>
+          <p class="choix__prealable">
+            <strong>Préalable&nbsp;:</strong> avoir acheté le passeport de votre enfant
+            lors de la <a href="#achat">vente du 16&nbsp;septembre</a>.
+          </p>
+        </div>
+        <a class="btn choix__btn choix__btn--haut" href="https://bex.reseauvacances.projuventute.ch/" target="_blank" rel="noopener noreferrer">
+          Site de réservation<span class="sr-only"> (nouvel onglet)</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+      </div>
 
       <ul class="choix__regles">
         <li class="regle">
@@ -139,22 +151,22 @@
           <p><strong>activités minimum par jour.</strong> Plus vous en choisissez, plus les chances d’en obtenir une sont grandes.</p>
         </li>
         <li class="regle">
-          <p class="regle__chiffre">1</p>
-          <p><strong>activité attribuée par jour</strong>, répartie ensuite par un algorithme informatique.</p>
-        </li>
-        <li class="regle">
           <p class="regle__chiffre" aria-hidden="true">★</p>
           <p><strong>3 favorites sur la semaine</strong>, marquées d’une étoile, sont traitées en priorité.</p>
+        </li>
+        <li class="regle">
+          <p class="regle__chiffre">1</p>
+          <p><strong>activité attribuée par jour</strong>, répartie ensuite par un algorithme informatique.</p>
         </li>
       </ul>
 
       <ol class="choix__etapes">
         <li class="etape">
           <h3 class="etape__titre">Ouvrir un compte de famille</h3>
-          <p class="etape__note">Une seule fois par famille. Le compte créé l’année passée est toujours actif.</p>
+          <p class="etape__note">Une seule fois par famille, avec l’adresse e-mail donnée lors de l’achat du passeport. Le compte créé l’année passée est toujours actif.</p>
           <ul class="etape__liste">
             <li>Sur le site de réservation, cliquez sur «&nbsp;S’inscrire&nbsp;».</li>
-            <li>Saisissez votre adresse e-mail et un mot de passe.</li>
+            <li>Saisissez <strong class="etape__email">l’adresse e-mail donnée lors de l’achat du passeport</strong> et un mot de passe.</li>
             <li>Ouvrez l’e-mail reçu et cliquez sur «&nbsp;Confirmer mon compte&nbsp;».</li>
             <li>Connectez-vous, puis complétez votre profil et cliquez sur «&nbsp;Envoyer&nbsp;».</li>
           </ul>
@@ -183,6 +195,7 @@
       <div class="choix__actions">
         <a class="btn choix__btn" href="https://bex.reseauvacances.projuventute.ch/" target="_blank" rel="noopener noreferrer">
           Aller sur le site de réservation<span class="sr-only"> (nouvel onglet)</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
         </a>
         <p class="choix__manuels">
           <span class="choix__manuels-label">Manuels détaillés, avec captures d’écran&nbsp;:</span>

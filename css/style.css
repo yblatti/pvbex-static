@@ -408,6 +408,37 @@ svg.icone-plein { fill: currentColor; stroke: none; }
   background: var(--teal-clair);
 }
 
+/* Titre + raccourci vers le site de réservation (desktop uniquement : sur
+   mobile, le bouton du bas arrive assez vite). */
+.choix__entete {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem 2.5rem;
+}
+/* Double classe : doit l'emporter sur `.choix__btn { display: inline-flex }`,
+   déclaré plus bas. */
+.choix__btn.choix__btn--haut { display: none; }
+
+/* Condition d'accès : bien visible, avant les règles et les étapes. */
+.choix__prealable {
+  margin-top: 1rem;
+  padding: .7rem 1.1rem;
+  border-left: 5px solid var(--orange);
+  border-radius: var(--r-s);
+  background: rgba(252, 176, 64, .14);
+  color: #fff;
+}
+.choix__prealable strong { color: var(--orange); }
+.choix__prealable a { color: #fff; font-weight: 700; }
+.choix__prealable a:hover { color: var(--orange); }
+
+.etape__email { color: #fff; }
+
+@media (min-width: 800px) {
+  .choix__btn.choix__btn--haut { display: inline-flex; flex: none; margin-top: .35rem; }
+}
+
 .choix__actions {
   display: flex;
   flex-wrap: wrap;
@@ -417,8 +448,44 @@ svg.icone-plein { fill: currentColor; stroke: none; }
   padding-top: 1.5rem;
   border-top: 1px solid rgba(255, 255, 255, .18);
 }
-.choix__btn { margin-top: 0; background: var(--orange); color: var(--encre); }
+.choix__btn {
+  display: inline-flex;
+  align-items: center;
+  gap: .55rem;
+  margin-top: 0;
+  background: var(--orange);
+  color: var(--encre);
+  font-weight: 600;
+}
 .choix__btn:hover { background: #ffc466; }
+.choix__btn svg {
+  flex: none;
+  width: 1.1em; height: 1.1em;
+  fill: none; stroke: currentColor;
+  stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round;
+  transition: translate .15s;
+}
+.choix__btn:hover svg { translate: 3px 0; }
+
+/* Desktop : le bouton du bas devient l'appel à l'action principal, dans un
+   bandeau éclairci, à droite ; les manuels passent à gauche. */
+@media (min-width: 800px) {
+  .choix__actions {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 1.5rem 1.75rem;
+    border-top: 0;
+    border-radius: var(--r-m);
+    background: rgba(255, 255, 255, .08);
+  }
+  .choix__actions .choix__btn {
+    order: 2;
+    flex: none;
+    padding: 1rem 2.2rem;
+    font-size: 1.2rem;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, .22);
+  }
+}
 
 .choix__manuels {
   display: flex;
