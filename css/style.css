@@ -228,6 +228,7 @@ img { max-width: 100%; height: auto; display: block; }
   padding: 2rem 2.25rem 2.25rem;
 }
 .achat__panneau .section-title { color: #fff; }
+.achat__intro { margin-top: .5rem; font-size: 1.05rem; }
 
 @media (max-width: 560px) {
   .achat__panneau { padding: 1.5rem 1.35rem 1.75rem; }
@@ -256,8 +257,8 @@ img { max-width: 100%; height: auto; display: block; }
 }
 .achat__bloc p + p { margin-top: .35rem; }
 
-.achat__cal, .achat__carte { margin-top: .9rem; }
-.achat__cal a, .achat__carte a {
+.achat__carte { margin-top: .9rem; }
+.achat__carte a {
   display: inline-flex;
   align-items: center;
   gap: .5rem;
@@ -270,11 +271,11 @@ img { max-width: 100%; height: auto; display: block; }
   text-decoration: none;
   transition: background .15s, border-color .15s;
 }
-.achat__cal a:hover, .achat__carte a:hover {
+.achat__carte a:hover {
   background: rgba(255, 255, 255, .12);
   border-color: #fff;
 }
-.achat__cal svg, .achat__carte svg {
+.achat__carte svg {
   flex: none;
   width: 17px; height: 17px;
   fill: none; stroke: currentColor;
@@ -284,237 +285,6 @@ img { max-width: 100%; height: auto; display: block; }
 /* Le logo WhatsApp est un tracé plein, pas un pictogramme au trait. */
 svg.icone-plein { fill: currentColor; stroke: none; }
 
-.achat__pied {
-  margin-top: 1.75rem;
-  padding-top: 1.25rem;
-  border-top: 1px solid rgba(255, 255, 255, .18);
-  font-size: .93rem;
-}
-.achat__pied a {
-  color: #fff;
-  font-weight: 700;
-  text-decoration-color: var(--orange);
-  text-decoration-thickness: 2px;
-  text-underline-offset: 3px;
-}
-.achat__pied a:hover { color: var(--orange); }
-
-/* ---------- Choisir ses activités ---------- */
-
-.choix { padding-top: 3.5rem; }
-
-/* Même panneau que « Comment acheter » : fond teal, textes clairs. */
-.choix__panneau {
-  background: var(--teal);
-  color: #cfe6e4;
-  border-radius: var(--r-l);
-  padding: 2rem 2.25rem 2.25rem;
-}
-.choix__panneau .section-title { color: #fff; }
-.choix__panneau .section-intro { color: #cfe6e4; }
-
-@media (max-width: 560px) {
-  .choix__panneau { padding: 1.5rem 1.35rem 1.75rem; }
-}
-
-.choix__regles {
-  display: grid;
-  gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  margin-top: 1.75rem;
-}
-
-.regle {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  background: rgba(255, 255, 255, .08);
-  border-radius: var(--r-m);
-  border-left: 5px solid var(--orange);
-  padding: 1rem 1.25rem;
-  font-size: .96rem;
-  color: #cfe6e4;
-}
-.regle strong { color: #fff; }
-
-.regle__chiffre {
-  flex: none;
-  width: 2.6rem;
-  font-family: var(--titre);
-  font-size: 2.2rem;
-  font-weight: 600;
-  line-height: 1;
-  text-align: center;
-  color: var(--orange);
-}
-
-.choix__etapes {
-  counter-reset: etape;
-  display: grid;
-  gap: 1.1rem;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  margin: 1.5rem 0 0;
-  padding: 0;
-  list-style: none;
-}
-
-.etape {
-  counter-increment: etape;
-  border: 1px solid rgba(255, 255, 255, .18);
-  border-radius: var(--r-m);
-  padding: 1.25rem 1.4rem 1.4rem;
-}
-.etape::before {
-  content: counter(etape);
-  display: grid;
-  place-items: center;
-  width: 2.2rem; height: 2.2rem;
-  border-radius: 50%;
-  background: var(--orange);
-  color: var(--encre);
-  font-family: var(--titre);
-  font-weight: 600;
-  font-size: 1.1rem;
-}
-
-.etape__titre {
-  margin-top: .75rem;
-  font-size: 1.2rem;
-  color: #fff;
-}
-.etape__note {
-  margin-top: .25rem;
-  font-size: .9rem;
-  font-weight: 700;
-  color: #8fbdbb;
-}
-
-.etape__liste {
-  margin-top: .8rem;
-  font-size: .95rem;
-  color: #cfe6e4;
-}
-.etape__liste li {
-  position: relative;
-  padding-left: 1.1rem;
-}
-.etape__liste li + li { margin-top: .4rem; }
-.etape__liste li::before {
-  content: '';
-  position: absolute;
-  left: 0; top: .6em;
-  width: 6px; height: 6px;
-  border-radius: 50%;
-  background: var(--teal-clair);
-}
-
-/* Titre + raccourci vers le site de réservation (desktop uniquement : sur
-   mobile, le bouton du bas arrive assez vite). */
-.choix__entete {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 1rem 2.5rem;
-}
-/* Double classe : doit l'emporter sur `.choix__btn { display: inline-flex }`,
-   déclaré plus bas. */
-.choix__btn.choix__btn--haut { display: none; }
-
-/* Condition d'accès : bien visible, avant les règles et les étapes. */
-.choix__prealable {
-  margin-top: 1rem;
-  padding: .7rem 1.1rem;
-  border-left: 5px solid var(--orange);
-  border-radius: var(--r-s);
-  background: rgba(252, 176, 64, .14);
-  color: #fff;
-}
-.choix__prealable strong { color: var(--orange); }
-.choix__prealable a { color: #fff; font-weight: 700; }
-.choix__prealable a:hover { color: var(--orange); }
-
-.etape__email { color: #fff; }
-
-@media (min-width: 800px) {
-  .choix__btn.choix__btn--haut { display: inline-flex; flex: none; margin-top: .35rem; }
-}
-
-.choix__actions {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 1rem 2rem;
-  margin-top: 1.75rem;
-  padding-top: 1.5rem;
-  border-top: 1px solid rgba(255, 255, 255, .18);
-}
-.choix__btn {
-  display: inline-flex;
-  align-items: center;
-  gap: .55rem;
-  margin-top: 0;
-  background: var(--orange);
-  color: var(--encre);
-  font-weight: 600;
-}
-.choix__btn:hover { background: #ffc466; }
-.choix__btn svg {
-  flex: none;
-  width: 1.1em; height: 1.1em;
-  fill: none; stroke: currentColor;
-  stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round;
-  transition: translate .15s;
-}
-.choix__btn:hover svg { translate: 3px 0; }
-
-/* Desktop : le bouton du bas devient l'appel à l'action principal, dans un
-   bandeau éclairci, à droite ; les manuels passent à gauche. */
-@media (min-width: 800px) {
-  .choix__actions {
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    padding: 1.5rem 1.75rem;
-    border-top: 0;
-    border-radius: var(--r-m);
-    background: rgba(255, 255, 255, .08);
-  }
-  .choix__actions .choix__btn {
-    order: 2;
-    flex: none;
-    padding: 1rem 2.2rem;
-    font-size: 1.2rem;
-    box-shadow: 0 6px 20px rgba(0, 0, 0, .22);
-  }
-}
-
-.choix__manuels {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: .5rem;
-  font-size: .9rem;
-  color: #8fbdbb;
-}
-.choix__manuels-label { flex-basis: 100%; }
-.choix__manuels a {
-  display: inline-flex;
-  align-items: center;
-  gap: .45rem;
-  padding: .4rem .95rem;
-  border: 1px solid rgba(255, 255, 255, .35);
-  border-radius: 999px;
-  font-weight: 700;
-  color: #fff;
-  text-decoration: none;
-  transition: background .15s, border-color .15s;
-}
-.choix__manuels a:hover { background: rgba(255, 255, 255, .12); border-color: #fff; }
-.choix__manuels svg {
-  flex: none;
-  width: 16px; height: 16px;
-  fill: none; stroke: currentColor;
-  stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round;
-}
 
 /* ---------- Section activités ---------- */
 
