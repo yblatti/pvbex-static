@@ -16,6 +16,7 @@ assets/img/favicon.svg
 assets/ics/              fichiers « ajouter au calendrier » (.ics)
 tools/xlsx_to_json.py   régénère data/activites.json depuis input/activites.xlsx
 tools/cache_bust.py     versionne les liens CSS/JS (à lancer avant publication)
+tools/hooks/pre-commit  bloque le commit si cache_bust.py n’a pas été lancé
 input/                  sources de travail (non publiées)
 ```
 
@@ -91,6 +92,14 @@ python3 tools/cache_bust.py
 
 Le script recalcule les empreintes et met `index.html` à jour. Il est
 idempotent : le relancer sans avoir touché au CSS ni au JS ne change rien.
+
+Pour ne pas l'oublier, un hook git refuse tout commit dont `index.html` ne
+pointe pas vers les empreintes des fichiers commités. À activer une fois par
+clone :
+
+```sh
+git config core.hooksPath tools/hooks
+```
 
 Une condition côté hébergeur : `index.html` lui-même ne doit pas être mis en
 cache longuement, sinon le navigateur ne voit jamais la nouvelle empreinte.

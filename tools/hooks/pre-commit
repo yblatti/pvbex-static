@@ -1,0 +1,18 @@
+#!/bin/sh
+# Refuse le commit si index.html ne référence pas la version actuelle
+# (?v=<empreinte>) de css/style.css et js/app.js, telles qu'indexées.
+# Activation (une fois par clone) : git config core.hooksPath tools/hooks
+
+erreur=0
+for f in css/style.css js/app.js; do
+  v=$(git show ":$f" | sha256sum | cut -c1-8)
+  if ! git show :index.html | grep -q "$f?v=$v"; then
+    echo "pre-commit : index.html ne pointe pas vers $f?v=$v" >&2
+    erreur=1
+  fi
+done
+
+if [ $erreur -ne 0 ]; then
+  echo "Lancez : python3 tools/cache_bust.py && git add index.html" >&2
+  exit 1
+fi
