@@ -13,7 +13,6 @@ data/activites.json     ← la liste des activités (à mettre à jour)
 assets/fonts/           Fredoka + Nunito (woff2, sous-ensembles latin)
 assets/img/header.png   bandeau
 assets/img/favicon.svg
-assets/ics/              fichiers « ajouter au calendrier » (.ics)
 tools/xlsx_to_json.py   régénère data/activites.json depuis input/activites.xlsx
 tools/cache_bust.py     versionne les liens CSS/JS (à lancer avant publication)
 tools/hooks/pre-commit  bloque le commit si cache_bust.py n’a pas été lancé
@@ -65,16 +64,11 @@ python3 -m http.server 8000
 
 ## Ajouter au calendrier
 
-Deux fichiers `.ics` statiques, liés depuis les encarts d'infos pratiques :
-
-- `assets/ics/passeport-vacances-bex-2026.ics` — la semaine (19 → 23 octobre,
-  événement sur la journée entière) ;
-- `assets/ics/vente-passeports-2026.ics` — la vente (16 septembre, 14h–17h,
-  fuseau Europe/Zurich).
-
-Ils sont écrits à la main : penser à les mettre à jour en même temps que les
-dates de `index.html`, et à changer les `UID` (`…-2026@pvbex.ch`) d'une année
-à l'autre, sinon les agendas qui ont déjà l'événement le remplaceront.
+Les fichiers `.ics` de l'édition 2026 ont été retirés une fois la semaine
+passée. Pour une nouvelle édition, recréer dans `assets/ics/` un fichier par
+événement (semaine, vente des passeports), les lier depuis les encarts d'infos
+pratiques, et changer les `UID` (`…-2027@pvbex.ch`) d'une année à l'autre,
+sinon les agendas qui ont déjà l'événement le remplaceront.
 
 ## Éviter le cache du navigateur
 
